@@ -1,102 +1,93 @@
 <div align="center">
 
-# SkyAiTan
+<br />
 
-### Modern AI Chat Assistant built with React, TypeScript, Vite, Supabase, and OpenRouter API
+<img src="https://raw.githubusercontent.com/sultannafis/SkyraAI/main/public/logo.png" alt="SkyraAI Logo" width="80" height="80" />
 
-SkyAiTan adalah aplikasi AI chat berbasis web yang dirancang dengan tampilan modern, responsif, dan ringan. Project ini dibuat sebagai eksperimen sekaligus showcase pengembangan aplikasi AI dengan frontend React, autentikasi, riwayat percakapan, fitur upload gambar, serta integrasi API AI.
+# SkyraAI
+
+**Your intelligent AI chat companion — built for speed, designed for humans.**
+
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-skyraai.vercel.app-000000?style=for-the-badge)](https://skyraai.vercel.app/)
+&nbsp;
+[![React](https://img.shields.io/badge/React%2018-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript%205-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite%205-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
 <br />
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sky-aitan.vercel.app/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
-[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+> A full-stack AI chat application with authentication, conversation history,  
+> image analysis, and a clean modern UI — deployed and production-ready.
 
 <br />
 
-**Live Demo:** [https://sky-aitan.vercel.app/](https://sky-aitan.vercel.app/)
+[**🚀 Try Live Demo**](https://skyraai.vercel.app/) &nbsp;·&nbsp; [**📖 Documentation**](#getting-started) &nbsp;·&nbsp; [**🐛 Report Bug**](https://github.com/sultannafis/SkyraAI/issues) &nbsp;·&nbsp; [**✨ Request Feature**](https://github.com/sultannafis/SkyraAI/issues)
 
 </div>
 
 ---
 
-## Overview
+## What is SkyraAI?
 
-**SkyAiTan** adalah aplikasi chat AI berbasis web yang memungkinkan pengguna berinteraksi dengan asisten AI melalui interface yang modern, bersih, dan nyaman digunakan.
+SkyraAI is a modern, full-stack AI chat application that lets users have natural conversations with an AI assistant through a clean, responsive interface. Built with a focus on developer experience and real-world patterns — it goes beyond the typical "Hello World" AI demo.
 
-Aplikasi ini dibangun menggunakan **React**, **TypeScript**, dan **Vite** sebagai frontend utama. Untuk kebutuhan autentikasi dan penyimpanan data, SkyAiTan menggunakan **Supabase**, sedangkan integrasi AI dilakukan melalui **OpenRouter API** dengan pendekatan serverless API agar key lebih aman dan tidak langsung terekspos di sisi client.
-
-Project ini dibuat sebagai bagian dari pengembangan portofolio untuk menunjukkan kemampuan dalam membangun aplikasi web modern, mulai dari UI/UX, routing, reusable component, authentication flow, integrasi API, hingga deployment production menggunakan Vercel.
+The app handles the full product lifecycle: authentication, persistent chat history, image uploads, serverless API integration, and production deployment — all the things that actually matter when shipping a real product.
 
 ---
 
-## Preview
+## Features
 
-> Tambahkan screenshot aplikasi lu di folder `public`, lalu ubah nama file-nya menjadi `preview.png`.
+**🤖 AI Chat Interface**  
+Clean, interactive chat with real-time AI responses. Minimal, distraction-free design focused on the conversation.
 
-```md
-![SkyAiTan Preview](./public/preview.png)
-Key Features
-AI Chat Interface
+**🖼️ Image Upload & Analysis**  
+Send images alongside your messages and have the AI analyze, describe, or discuss them.
 
-User dapat mengirim pesan dan menerima respons dari AI melalui tampilan chat yang sederhana, modern, dan interaktif.
+**📜 Chat History**  
+All conversations are saved to your account. Pick up where you left off, anytime.
 
-Image Upload Support
+**🔐 Authentication**  
+Full login and register flow powered by Supabase — secure and production-ready.
 
-Aplikasi mendukung upload gambar untuk kebutuhan interaksi berbasis visual atau analisis gambar menggunakan AI.
+**📱 Fully Responsive**  
+Works seamlessly across desktop, tablet, and mobile.
 
-Chat History
+**🔒 Secure by Default**  
+API keys stay on the server via Vercel Serverless Functions. Nothing sensitive is exposed to the client.
 
-Riwayat percakapan dapat disimpan sehingga user bisa melihat kembali sesi chat sebelumnya.
+**🧩 Component-Driven UI**  
+Modals, sidebars, and panels built as reusable components — easy to extend.
 
-Authentication Pages
+---
 
-Tersedia halaman login dan register sebagai bagian dari alur autentikasi pengguna.
+## Tech Stack
 
-Responsive Layout
+| Layer | Technology |
+|---|---|
+| **Frontend** | React 18, TypeScript 5, Vite 5 |
+| **Styling** | Custom CSS |
+| **Routing** | React Router DOM |
+| **Animation** | Framer Motion |
+| **Icons** | React Icons |
+| **HTTP** | Axios |
+| **Serverless API** | Vercel Functions |
+| **Auth & Database** | Supabase |
+| **AI Provider** | OpenRouter API |
+| **Deployment** | Vercel |
 
-Tampilan aplikasi dibuat responsif agar nyaman digunakan di desktop, tablet, maupun mobile.
+---
 
-Sidebar Navigation
+## Project Structure
 
-Sidebar digunakan untuk navigasi utama dan pengelolaan riwayat percakapan.
-
-User Panel
-
-Tersedia panel pengguna untuk mengakses menu profil, pengaturan, bantuan, dan informasi aplikasi.
-
-Modal Components
-
-Aplikasi memiliki beberapa modal pendukung seperti About, Help, Settings, Profile, dan Image Warning.
-
-Serverless API Integration
-
-API digunakan sebagai penghubung antara frontend dan layanan AI eksternal, sehingga API key tidak langsung terbuka di sisi client.
-
-Tech Stack
-Layer	Technology
-Frontend	React, TypeScript, Vite
-Styling	CSS Custom
-Routing	React Router DOM
-Animation	Framer Motion
-Icons	React Icons
-HTTP Client	Axios
-Backend/API	Vercel Serverless Function
-Database/Auth	Supabase
-AI Provider	OpenRouter API
-Deployment	Vercel
-Project Structure
-sky-aitan/
+```
+skyra-ai/
 ├── api/
-│   ├── chat.js
-│   └── vision.ts
-│
-├── public/
+│   ├── chat.js              # Serverless endpoint for text chat
+│   └── vision.ts            # Serverless endpoint for image analysis
 │
 ├── src/
-│   ├── assets/
 │   ├── components/
 │   │   ├── AboutModal.tsx
 │   │   ├── HelpModal.tsx
@@ -106,144 +97,174 @@ sky-aitan/
 │   │   ├── Sidebar.tsx
 │   │   └── UserPanel.tsx
 │   │
-│   ├── lib/
 │   ├── pages/
 │   │   ├── ChatPage.tsx
 │   │   ├── LoginPage.tsx
-│   │   ├── ProtectedRoute.tsx
-│   │   └── RegisterPage.tsx
+│   │   ├── RegisterPage.tsx
+│   │   └── ProtectedRoute.tsx
 │   │
+│   ├── lib/
 │   ├── App.tsx
 │   ├── main.tsx
 │   └── index.css
 │
 ├── supabase/
-├── package.json
-├── vite.config.ts
+├── public/
 ├── vercel.json
-└── README.md
-Getting Started
+├── vite.config.ts
+└── package.json
+```
 
-Ikuti langkah berikut untuk menjalankan project ini secara lokal.
+---
 
-1. Clone Repository
-git clone https://github.com/sultannafis/sky-aitan.git
-cd sky-aitan
-2. Install Dependencies
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- A [Supabase](https://supabase.com/) project
+- An [OpenRouter](https://openrouter.ai/) API key
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sultannafis/SkyraAI.git
+cd SkyraAI
+```
+
+### 2. Install Dependencies
+
+```bash
 npm install
-3. Setup Environment Variables
+```
 
-Buat file .env di root project:
+### 3. Configure Environment Variables
 
+Create a `.env` file in the root of the project:
+
+```env
+# AI Provider
 OPENROUTER_API_KEY=your_openrouter_api_key
 REFERER=http://localhost:5173
 
+# Supabase
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-Pastikan API key dan kredensial Supabase tidak di-commit ke GitHub.
+> ⚠️ Never commit your `.env` file. Make sure `.gitignore` covers it.
 
-4. Run Development Server
+### 4. Start Development Server
+
+```bash
 npm run dev
+```
 
-Aplikasi akan berjalan di:
+Open [http://localhost:5173](http://localhost:5173) to see the app.
 
-http://localhost:5173
-Available Scripts
-Command	Description
-npm run dev	Menjalankan development server
-npm run build	Build project untuk production
-npm run preview	Preview hasil build secara lokal
-npm run lint	Menjalankan ESLint
-Environment Variables
-Variable	Description
-OPENROUTER_API_KEY	API key untuk mengakses OpenRouter
-REFERER	URL referer yang dikirim ke request API
-VITE_SUPABASE_URL	URL project Supabase
-VITE_SUPABASE_ANON_KEY	Public anon key dari Supabase
-Deployment
+---
 
-Project ini dideploy menggunakan Vercel dan dapat diakses melalui:
+## Available Scripts
 
-https://sky-aitan.vercel.app/
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
 
-Deploy Manual
-npm run build
+---
 
-Lalu upload ke Vercel atau deploy langsung melalui dashboard Vercel.
+## Deployment
 
-Deploy with Vercel CLI
+SkyraAI is deployed on **Vercel** and live at [skyraai.vercel.app](https://skyraai.vercel.app/).
+
+### Deploy via Vercel CLI
+
+```bash
 npm install -g vercel
 vercel
+```
 
-Jangan lupa tambahkan environment variables di dashboard Vercel:
+### Deploy Manually
 
+```bash
+npm run build
+```
+
+Then upload the `dist/` folder or connect the repo to [Vercel's dashboard](https://vercel.com/dashboard).
+
+### Environment Variables on Vercel
+
+Add these in your Vercel project settings under **Settings → Environment Variables**:
+
+```
 OPENROUTER_API_KEY
 REFERER
 VITE_SUPABASE_URL
 VITE_SUPABASE_ANON_KEY
-Main Flow
-User membuka aplikasi
-        ↓
-User login / register
-        ↓
-User masuk ke halaman chat
-        ↓
-User mengirim pesan atau gambar
-        ↓
-Frontend mengirim request ke API
-        ↓
-API meneruskan request ke layanan AI
-        ↓
-AI mengirim respons
-        ↓
-Respons ditampilkan di halaman chat
-        ↓
-Percakapan tersimpan sebagai chat history
-Why This Project Matters
+```
 
-SkyAiTan bukan sekadar project React biasa. Project ini menunjukkan implementasi aplikasi AI end-to-end dengan konsep yang cukup dekat dengan produk nyata.
+---
 
-Beberapa hal yang ditunjukkan dari project ini:
+## Application Flow
 
-Membangun UI chat interaktif
-Mengintegrasikan frontend dengan AI API
-Menggunakan serverless function untuk menjaga keamanan API key
-Mengelola routing halaman dengan React Router
-Membuat reusable component
-Menghubungkan aplikasi dengan Supabase
-Menyusun struktur project yang rapi dan scalable
-Melakukan deployment production menggunakan Vercel
+```
+User opens app
+     ↓
+Login / Register  (Supabase Auth)
+     ↓
+Chat Page
+     ↓
+User sends message or uploads image
+     ↓
+Request goes to Vercel Serverless Function
+     ↓
+Function calls OpenRouter AI API  (key never exposed to client)
+     ↓
+AI response streams back
+     ↓
+Response displayed in chat
+     ↓
+Conversation saved to Supabase
+```
 
-Project ini bisa dikembangkan lebih lanjut menjadi personal AI assistant, chatbot edukasi, customer support bot, atau platform AI berbasis web.
+---
 
-Future Improvements
+## Roadmap
 
-Beberapa pengembangan yang bisa ditambahkan ke versi berikutnya:
+- [ ] Streaming responses (real-time word-by-word output)
+- [ ] Dark mode & theme customization
+- [ ] Multi-model selector (GPT-4, Claude, Gemini, etc.)
+- [ ] Export conversations to PDF or TXT
+- [ ] Chat search & filtering
+- [ ] Voice input support
+- [ ] Admin dashboard
+- [ ] Unit & integration tests
 
-Streaming response agar jawaban AI muncul secara real-time
-Dark mode dan theme customization
-Export chat ke PDF atau TXT
-Folder untuk mengelompokkan chat history
-Search chat history
-Multi-model selector
-Voice input yang lebih stabil
-Rate limit API
-Admin dashboard
-Better error handling
-Unit testing dan integration testing
-Author
+---
 
-Sultan Nafis
+## Author
 
-Fresh Graduate Software Developer yang berfokus pada pengembangan aplikasi web modern, UI interaktif, integrasi API, dan pemanfaatan teknologi AI dalam aplikasi berbasis web.
+**Sultan Nafis** — Fresh Graduate Software Developer
 
-GitHub: @sultannafis
-Live App: https://sky-aitan.vercel.app/
-License
+Focused on building modern web applications with clean architecture, interactive UIs, and AI integrations.
 
-Project ini dibuat untuk kebutuhan pembelajaran, portofolio, dan pengembangan aplikasi AI berbasis web.
+[![GitHub](https://img.shields.io/badge/GitHub-@sultannafis-181717?style=flat-square&logo=github)](https://github.com/sultannafis)
+[![Live App](https://img.shields.io/badge/Live%20App-skyraai.vercel.app-000000?style=flat-square&logo=vercel)](https://skyraai.vercel.app/)
+
+---
+
+## License
+
+This project is open for learning, portfolio reference, and personal experimentation.
+
+---
 
 <div align="center">
-Built with passion by Sultan Nafis
-</div> ```
+
+Made with ☕ and TypeScript by **Sultan Nafis**
+
+⭐ If this project helped or inspired you, consider giving it a star!
+
+</div>
